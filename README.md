@@ -1,5 +1,5 @@
 # Standards supporting cartographic best practices (DRAFT)
-Contributors: Amy Griffin, Serena Coetzee, Silvana Camboim, Dalia Varanka, Francis Harvey, Petr Kubicek, Zdenek Stachon, attendees of the OGC Portrayal Domain Working Group Workshop at Member Meetings #126 and #127
+Contributors: Amy Griffin, Serena Coetzee, Silvana Camboim, Dalia Varanka, Francis Harvey, Petr Kubicek, Zdenek Stachon, Iain Burnell, Keith Ryden
 
 ## 1. Introduction
 Contemporary cartographic practice uses a range of computing technologies to build print and electronic medium maps. Some technologies allow the creation only of simple maps, through manipulation of a constrained set of design parameters (e.g., Mapline or Google’s MyMaps). Others allow the manipulation of an expansive range of design elements (e.g., ArcGIS Pro, QGIS, Mapbox). Many software tools for making maps are not built by cartographers, but rather by software engineers, some of whom have limited cartographic training or mapmaking experience. Among the tools developers may use to help them design and implement mapmaking software are standards, such as those developed by groups like the Open Geospatial Consortium (OGC). 
@@ -119,7 +119,10 @@ Summary of aspects of cartographic practice that could be standardized to suppor
 
 ## 7. Conclusions
 
-## 8. References
+## 8. Acknowledgements 
+We would like to acknowledge the constructive suggestions from attendees of the OGC Portrayal Domain Working Group Workshop at Member Meetings #126 and #127, who provided feedback on early iterations of these ideas.
+
+## 9. References
 Abhayaratna, J., van den Brink, L., Car, N., Atkinson, R., Homburg, T., Knibbe, F., McGlinn, K., Wagner, A., Bonduel, M., Rasmussen, M. H., Thiery, F. Eds. 2020. OGC Benefits of Representing Spatial Data Using Semantic and Graph Technologies. Open Geospatial Consortium. http://www.opengis.net/doc/wp/using-semantic-graph
 
 Bertin J (1983) Semiology of Graphics: Diagrams, Networks, Maps (1st ed). ESRI Press, California, USA.
