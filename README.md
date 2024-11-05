@@ -137,28 +137,47 @@ We would like to acknowledge the constructive suggestions from attendees of the 
 ## 9. References
 Abhayaratna, J., van den Brink, L., Car, N., Atkinson, R., Homburg, T., Knibbe, F., McGlinn, K., Wagner, A., Bonduel, M., Rasmussen, M. H., Thiery, F. Eds. 2020. OGC Benefits of Representing Spatial Data Using Semantic and Graph Technologies. Open Geospatial Consortium. http://www.opengis.net/doc/wp/using-semantic-graph
 
-Bertin J (1983) Semiology of Graphics: Diagrams, Networks, Maps (1st ed). ESRI Press, California, USA.
+Bertin, J. (1983). Semiology of Graphics: Diagrams, Networks, Maps (1st ed). ESRI Press, California, USA.
  
-Bocher, E., and ERTZ, O.(2020): OGC Symbology Conceptual Model: CorePart. Online: http://www.opengis.net/doc/IS/SymCore/1.0
+Bocher, E. and Ertz, O. (2018). A redesign of OGC Symbology Encoding standard for sharing cartography. PeerJ Computer Science, 4, e143; DOI 10.7717/peerj-cs.143
 
-BOCHER and ERTZ (2018), A redesign of OGC Symbology Encoding standard for sharing cartography. PeerJ Comput. Sci. 4:e143; DOI 10.7717/peerj-cs.143
+Bocher, E., and Ertz, O.(2020). OGC Symbology Conceptual Model: CorePart. Available online: http://www.opengis.net/doc/IS/SymCore/1.0.
+
+Bourque, P. & Fairly, R. E. (eds.), (2014). Guide to the Software Engineering Body of Knowledge (SWEBOK) V3.0. IEEE Computer Society. Available online at: https://www.computer.org/education/bodies-of-knowledge/software-engineering/v3.
 
 Brewer, C. A. (2003). A transition in improving maps: The ColorBrewer example. Cartography and Geographic Information Science, 30(2), 159-162.
 
+Brus, J., Zdena, D., Kanok, J., & Pechanec, V. (2010). Design of intelligent system in cartography. In 9th Roedunet IEEE International Conference, (pp. 112-117). IEEE.
+
 Coetzee, S., and Rautenbach, V. (2017). A design pattern approach to cartography with big geospatial data. The Cartographic Journal, 54(4), 301-312. 
 
-DiBIASE, D., MacEACHREN, A. M., KRYGIER, J. B. a REEVES C. (1992). Animation and the Role of Map Design in Scientific Visualization. Cartography and Geographic
-Information Systems, r. 19, č. 4, s. 201-214
+DiBiase, D., MacEachren, A. M., Krygier, J. B. and Reeves C. (1992). Animation and the Role of Map Design in Scientific Visualization. Cartography and Geographic
+Information Systems, 19(4), 201-214.
+
+D’Ignazio, C. & Klein, L. (2019). Data Feminism. Cambridge, MA, MIT Press.
 
 Dobres, J., Chahine, N., and Reimer, B. (2017). Effects of ambient illumination, contrast polarity, and letter size on text legibility under glance-like reading. Applied Ergonomics, 60, 68-73.
 
-HAEBERLING, CH. (2005). Cartographic Design Principles For 3D Maps – A Contribution To Cartographic Theory. Proceedings of 22nd ICA Congress Mapping Approaches into a Changing World, A Coruna, Spain, Jul 9-16
+Evans, E. (2003). Domain-driven design: Tackling complexity in the heart of software. Upper Saddle River, NJ, Addison-Wesley.
+
+Forrest, D. (1993). Expert systems and cartographic design. The Cartographic Journal, 30(2), 143-148.
+
+Gibbs N. E. and Tucker A. B. (1986). A model curriculum for a liberal arts degree in computer science. Communications of the ACM, 29(3), 202-210.
+
+Griffin, A. L., White, T., Fish, C., Tomio, B., Huang, H., Sluter, C. R., Bravo, J. V. M., Fabrikant, S. I., Bleisch, S., Yamada, M. & Picanço, P. (2017). Designing across map use contexts: A research agenda. International Journal of Cartography, 3(sup1), 90-114.
+
+Haeberling, C. (2005). Cartographic Design Principles For 3D Maps – A Contribution To Cartographic Theory. Proceedings of 22nd ICA Congress Mapping Approaches into a Changing World, A Coruna, Spain, Jul 9-16.
 
 Harrower, M., & Brewer, C. A. (2003). ColorBrewer. org: an online tool for selecting colour schemes for maps. The Cartographic Journal, 40(1), 27-37.
 
-Percivall, G, Reed, C. Simonis, I, Lieberman, J, and Ramage, S, 2012. Big Geospatial Data – an OGC White Paper. Available online at https://www.google.com/url?q=https://docs.ogc.org/wp/16-131r2/16-131r2.html&sa=D&source=docs&ust=1683478379205872&usg=AOvVaw3vYPD6-VLCsKwEuGfnWcTv
+ISO. (2020). ISO 12967-1:2020, Health informatics — Service architecture (HISA) — Part 1: Enterprise viewpoint.
+
+Percivall, G, Reed, C. Simonis, I, Lieberman, J, and Ramage, S, 2012. Big Geospatial Data – an OGC White Paper. Available online at: https://www.google.com/url?q=https://docs.ogc.org/wp/16-131r2/16-131r2.html&sa=D&source=docs&ust=1683478379205872&usg=AOvVaw3vYPD6-VLCsKwEuGfnWcTv
 
 Piepenbrock, C., Mayr, S., & Buchner, A. (2014). Positive Display Polarity Is Particularly Advantageous for Small Character Sizes: Implications for Display Design. Human Factors, 56(5), 942–951. 
 
-RAUTENBACH, V., COETZEE, S., SCHIEWE, J., and ÇÖLTEKIN, A. (2015). An Assessment of Visual Variables for the Cartographic Design of 3D Informal Settlement Models. Proceedings of the ICC 2015, Rio de Janeiro, Brazil
+Rautenbach, V., Coetzee, S., Schiewe, J., and Çöltekin, A. (2015). An Assessment of Visual Variables for the Cartographic Design of 3D Informal Settlement Models. Proceedings of the ICC 2015, Rio de Janeiro, Brazil.
 
+Tsorlini, A., Sieber, R., Hurni, L., Klauser, H., & Gloor, T. (2017). Designing a Rule-based Wizard for Visualizing Statistical Data on Thematic Maps. Cartographic Perspectives, 86, 5-23.
+
+Wing J. M., (2014). Computational thinking benefits society. 40th Anniversary Blog on Social Issues in Computing. Available online at: http://socialissues.cs.toronto.edu/index.html%3Fp=279.html. 
