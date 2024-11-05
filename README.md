@@ -1,4 +1,5 @@
-# Standards supporting cartographic best practices
+# Standards supporting cartographic best practices (DRAFT)
+Contributors: Amy Griffin, Serena Coetzee, Silvana Camboim, Dalia Varanka, Francis Harvey, Petr Kubicek, Zdenek Stachon
 
 ## 1. Introduction
 Contemporary cartographic practice uses a range of computing technologies to build print and electronic medium maps. Some technologies allow the creation only of simple maps, through manipulation of a constrained set of design parameters (e.g., Mapline or Google’s MyMaps). Others allow the manipulation of an expansive range of design elements (e.g., ArcGIS Pro, QGIS, Mapbox). Many software tools for making maps are not built by cartographers, but rather by software engineers, some of whom have limited cartographic training or mapmaking experience. Among the tools developers may use to help them design and implement mapmaking software are standards, such as those developed by groups like the Open Geospatial Consortium (OGC). 
