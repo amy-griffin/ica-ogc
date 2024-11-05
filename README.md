@@ -1,17 +1,17 @@
 # Standards supporting cartographic best practices
 
-## Technical Paper Objective
+## 1. Technical Paper Objective
 
-## Introduction
+## 2. Introduction
 
-## Geospatial semantics, cartographic terminology, and applied ontology
+## 3. Geospatial semantics, cartographic terminology, and applied ontology
 
-## Good cartographic practices in different contexts
+## 4. Good cartographic practices in different contexts
 
-## Emerging context: 3D and immersive cartography (VR/AR)
+## 5. Emerging context: 3D and immersive cartography (VR/AR)
 
-## Emerging context: Big geospatial data
+## 6. Emerging context: Big geospatial data
 
-## Summary of standardization requirements
+## 7. Summary of standardization requirements
 
-## Conclusions
+## 8. Conclusions
