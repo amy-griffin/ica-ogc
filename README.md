@@ -1,4 +1,4 @@
-# Standards supporting cartographic best practices (DRAFT)
+![image](https://github.com/user-attachments/assets/34c0f23f-6ae7-4e77-bb97-bbfc11d541d9)# Standards supporting cartographic best practices (DRAFT)
 Contributors: Amy Griffin, Serena Coetzee, Silvana Camboim, Dalia Varanka, Francis Harvey, Petr Kubicek, Zdenek Stachon
 
 ## 1. Introduction
@@ -65,46 +65,32 @@ Legibility is an important attribute of a successful map. Legibility is determin
 ## 4. Emerging context: 3D and immersive cartography (VR/AR)
 ### Background and challenges 2D vs 2D cartography 
 Bocher and Ertz (2018) pointed to the low quality of maps using open standards (OGC included). They suggested taking cartographic theory more into account in the core OGC Symbology encoding standards. Using the visual variables proposed by Bertin (shape, size, hue/colour, value, texture, and orientation; 1967, 1983) as the underlying cartographic instruction, they proposed the symbology code which constitutes a style that describes how a map is authored.
-Their later ideas (Bocher and Ertz, 2020) led to proposing the conceptual basis for the geographical data symbology definition as the OGC Symbology Conceptual Model: Core Part using the Bertin's variables for interoperable encoding of cartographic principles. The core concept is extensible for different data models (raster, vector, 2D, 3D, VR) and uses alternative encoding methods (JSON, CSS).
-However, the original Bertin’s variables have been extended in various ways.  Several authors added new static visual variables (saturation/intensity, arrangement, focus/crispness, resolution, transparency, spacing) for a specific visualisation context (uncertainty). See fig. xx for examples of static visual variables and the source references. With the advent of computer cartography, visual variables were extended for interactive displays, with six new visual variables: movement, duration, frequency, order, rate of change, and synchronisation. 
-The use of the third dimension, however, opened a new perspective in cartographic visualization.
-The question is whether we can effectively use the advantages of 3D visualization and eliminate its disadvantages.
-Advantages of 3D visualization:
-+ more usable space
-+ a more natural way of representing the real world
-+ additional graphical variables and extensions to existing ones
-Disadvantages (weaknesses) of 3D visualisation:
-- unequal scale in different parts of the 3D scene (perspective distortion) - overlapping objects
-- overlapping objects
-- visual clusters
-- insufficient use of screen size
-New possibilities have been proposed for interactive 3D models: e.g. camera settings, Lighting and illumination, shading, shadows, and atmospheric and environmental effects (Haeberling 2002).
- Use case:
-The role of Illumination on colour hue in an interactive display for way finding. Due to the artificial illumination in the three-dimensional virtual world model, the variation in colour hue also suffers a variation in saturation because of natural brightness. The variable lighting and illumination cause different perception and influences the task results. 
+This was later elaborated into the conceptual basis for the geographical data symbology definition as the OGC Symbology Conceptual Model: Core Part using the Bertin's variables for interoperable encoding of cartographic principles (Bocher and Ertz, 2020). The core concept is extensible for different data models (raster, vector, 2D, 3D, VR) and uses alternative encoding methods (JSON, CSS).
+However, Bertin’s variables original visual variables have been extended in various ways.  Several authors added new static visual variables (saturation/intensity, arrangement, focus/crispness, resolution, transparency, spacing) for specific visualisation contexts (e.g., uncertainty). See fig. xx for examples of static visual variables and the source references. Visual variables have also been extended for interactive displays, with six new visual variables: movement, duration, frequency, order, rate of change, and synchronisation. 
+
+The use of the third dimension, however, has opened a new perspective in cartographic visualization. The question is whether we can effectively use the advantages of 3D visualization and eliminate its disadvantages.
+
+| Advantages of 3D                            | Disadvantages of 3D               |
+| ------------------------------------------- | --------------------------------- |
+| More usable space                           | Perspective distortion            | 
+| More natural way of representing the world  | Overlapping objects               |
+| Additional visual variables                 | Visual clutter                    |
+| Extensions to existing visual variables     | Insufficient use of screen space  |
 
 
-Use case 2 (possible)
-Does the level of realism affect the participant in the wayfinding task in 3D environment/XR?
-Immersive cartography (XR - AR/VR/MR)
-Background and challenges
-Immersive environments (Çöltekin et al. 2020) are widely used in many fields of human activity – e.g., architecture, culture, crisis management, education, landscape planning, military, tourism, etc. Even in the metaverse, a geospatial aspect appears (Geoconnection, winter 2021).
- Challenges are connected with the displayed content, display devices, control devices, and user aspects. Emerging applications use traditional approaches that need to be modified and standardized for immersive virtual geographic environments.
-We can start with the variability of available display devices for 3D environments, from traditional monitors to smartphones to HMDs, and the associated variability of input devices enabling interaction with the given environment. Furthermore, there is unclear use of graphic variables for visualizing the content of a 3D environment when some traditional variables are used only to a limited extent. And last but not least, there are user aspects, including, among other things, ethics, social inequality, the possibility of exclusion, etc.
-
-
-Use case - Emergency evacuation
-
-The field of emergency management is connected with existing standards dealing with interoperability, interfaces, applications, or data. Currently, a massive amount of 3D spatial data is created in connection with the development of BIM approaches. This data can be used for the purpose of creating immersive environments that can serve, for example, as a virtual asset for crisis management purposes. An example might be an emergency evacuation that can be carried out in a non-existent building if it can be practiced in a digital twin of an existing building, where this approach is significantly cheaper and without the risk of injury to the participants of the emergency evacuation. This approach can be used in the case of a wide range of publicly accessible buildings.
- 
+## Capabilities Vision
 For three-dimensional or dynamic media (virtual reality displays, smartphones), the potential for using multidimensional visualization is higher than for static media, e.g.:
 - Global view (i.e., bird's eye view) can enable rotation of the navigation plan according to the user's movement and dynamic visualization of markings, escape routes, or user movement in the plan.
 - Local view (i.e., first-person view) enables the creation of interactive escape visualizations or simulations or non-interactive escape video animations. These can be used as a complement to the traditional global view of evacuation (an egocentric frame of reference).
 
-Proposed standard / product / output
-1.	The transformation from BIM to a Digital twin environment.
-2.	Visual cues – position of the light source, level of realism, etc. 
-3.	Interactions with the environment.
-4.	Terminological anchoring of cartographic concepts within immersive geographic environments (connected with the previous chapter)
+New possibilities have been proposed for interactive 3D models: e.g. camera settings, lighting and illumination, shading, shadows, and atmospheric and environmental effects (Haeberling 2002). For example, illumination on colour hue can be an interactive method for supporting for wayfinding. But due to the artificial illumination in the three-dimensional virtual world model, the variation in colour hue also suffers a variation in saturation because of natural brightness. The variable lighting and illumination cause different perception and influences the task results (Figure X). 
+
+## Use case
+Currently, a massive amount of 3D spatial data is created in connection with the development of Building Information Model (BIM) approaches. This data can be used for the purpose of creating immersive environments that can serve, for example, as a virtual asset for crisis management purposes. An example might be an emergency evacuation that can be carried out in a non-existent building if it can be practiced in a digital twin of an existing building, where this approach is significantly cheaper and eliminates the risk of injury to the participants of the emergency evacuation. This approach can be used in the case of a wide range of publicly accessible buildings.
+
+## Proposed outputs
+-	Best practice guidelines for the use of visual cues – position of the light source, level of realism, etc. 
+-	Terminological anchoring of cartographic concepts within immersive geographic environments (see also section 2)
 
 
 ## 5. Emerging context: Big geospatial data
