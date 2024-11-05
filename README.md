@@ -33,8 +33,8 @@ Standardization of definitions and workflows is required to streamline communica
 
 The UCDWA is a centralized, web-accessible resource that provides unified, scientifically-based definitions for key cartographic terms and processes. The database leverages the work of the ICA, the OGC, and other renowned bodies in cartography. It includes terms from the Multilingual Dictionary of Technical Terms in Cartography, CartoBOK, OGC Definitions Server, OSGeo Lexicon, and other authoritative sources. Recognizing the global nature of geoinformation system projects, the UCDWA provides translations of definitions in multiple languages and locales, making it accessible to a wide range of users. It is also designed to be easily parsed by automated systems, ensuring seamless integration into automated workflows. Finally, it should also have a user-friendly interface and be continuously updated to ensure it remains current with the latest developments in cartographic science.
 
-/assets/images/Fig1.png
-Figure 1: Example of differences in terminology definitions among sources.
+![Figure 1: Example of differences in terminology definitions among sources.] (/assets/images/Fig1.png)
+
 
 ### Proposed outputs
 -	Proposed standardization of terminology through an ontology (i.e., the UCDWA)
