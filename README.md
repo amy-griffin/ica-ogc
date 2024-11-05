@@ -95,10 +95,19 @@ For three-dimensional or dynamic media (virtual reality displays, smartphones), 
 - Global view (i.e., bird's eye view) can enable rotation of the navigation plan according to the user's movement and dynamic visualization of markings, escape routes, or user movement in the plan.
 - Local view (i.e., first-person view) enables the creation of interactive escape visualizations or simulations or non-interactive escape video animations. These can be used as a complement to the traditional global view of evacuation (an egocentric frame of reference).
 
-New possibilities have been proposed for interactive 3D models: e.g. camera settings, lighting and illumination, shading, shadows, and atmospheric and environmental effects (Haeberling 2002). For example, illumination on colour hue can be an interactive method for supporting for wayfinding. But due to the artificial illumination in the three-dimensional virtual world model, the variation in colour hue also suffers a variation in saturation because of natural brightness. The variable lighting and illumination cause different perception and influences the task results (Figure X). 
+New possibilities have been proposed for interactive 3D models: e.g. camera settings, lighting and illumination, shading, shadows, and atmospheric and environmental effects (Haeberling 2002). For example, illumination on colour hue can be an interactive method for supporting for wayfinding. But due to the artificial illumination in the three-dimensional virtual world model, the variation in colour hue also suffers a variation in saturation because of natural brightness. The variable lighting and illumination can cause different perceptions and influence the task results (Figure 2). Likewise, it's unclear which level of detail and realism might be most appropriate. More research is needed to strengthen our understanding of what is best practice in this regard.
+
+![image](https://github.com/user-attachments/assets/17189f80-18ec-4b47-b762-2edb8dbaf6c5)
+
+Figure 2. Example of different appearances of 3D buildings under different lighting conditions.
+
+![image](https://github.com/user-attachments/assets/a5cd0a54-dfc0-4635-be81-38d578aaa74c)
+
+Figure 3. Example of different levels of detail and realism in a 3D visualization.
+
 
 ## Use case
-Currently, a massive amount of 3D spatial data is created in connection with the development of Building Information Model (BIM) approaches. This data can be used for the purpose of creating immersive environments that can serve, for example, as a virtual asset for crisis management purposes. An example might be an emergency evacuation that can be carried out in a non-existent building if it can be practiced in a digital twin of an existing building, where this approach is significantly cheaper and eliminates the risk of injury to the participants of the emergency evacuation. This approach can be used in the case of a wide range of publicly accessible buildings.
+Currently, a massive amount of 3D spatial data is created in connection with the development of Building Information Model (BIM) approaches. This data can be used for the purpose of creating immersive environments that can serve, for example, as a virtual asset for crisis management purposes. An example might be an emergency evacuation that can be carried out in a non-existent building (Figure 4) if it can be practiced in a digital twin of an existing building, where this approach is significantly cheaper and eliminates the risk of injury to the participants of the emergency evacuation. This approach can be used in the case of a wide range of publicly accessible buildings.
 
 ![image](https://github.com/user-attachments/assets/69c2c1e9-44b6-4e73-8dc1-cb3a6cb19e90)
 
