@@ -62,9 +62,83 @@ Legibility is an important attribute of a successful map. Legibility is determin
 
 
 ## 5. Emerging context: 3D and immersive cartography (VR/AR)
+### Background and challenges 2D vs 2D cartography 
+Bocher and Ertz (2018) pointed to the low quality of maps using open standards (OGC included). They suggested taking cartographic theory more into account in the core OGC Symbology encoding standards. Using the visual variables proposed by Bertin (shape, size, hue/colour, value, texture, and orientation; 1967, 1983) as the underlying cartographic instruction, they proposed the symbology code which constitutes a style that describes how a map is authored.
+Their activities later (Bocher and Ertz, 2020) grew out in proposing the conceptual basis for the geographical data symbology definition as the OGC Symbology Conceptual Model: Core Part using the Bertins variables for interoperable encoding of cartographic principles. The core concept is extensible for different data models (raster, vector, 2D, 3D, VR) and uses alternative encoding methods (JSON, XML, CSS).
+However, the original Bertin’s variables have been extended in various ways.  Several authors added new static visual variables (saturation/intensity, arrangement, focus/crispness, resolution, transparency, spacing) for a specific visualisation context (uncertainty). See fig. xx for examples of static visual variables and the source references. With the advent of computer cartography, visual variables were extended for interactive displays, with six new visual variables: movement, duration, frequency, order, rate of change, and synchronisation. 
+The use of the third dimension, however, opened a new perspective in cartographic visualization.
+The question is whether we can effectively use the advantages of 3D visualization and eliminate its disadvantages.
+Advantages of 3D visualization:
++ more usable space
++ a more natural way of representing the real world
++ additional graphical variables and extensions to existing ones
+Disadvantages (weaknesses) of 3D visualisation:
+- unequal scale in different parts of the 3D scene (perspective distortion) - overlapping objects
+- overlapping objects
+- visual clusters
+- insufficient use of screen size
+New possibilities have been proposed for interactive 3D models: e.g. camera settings, Lighting and illumination, shading, shadows, and atmospheric and environmental effects (Haeberling 2002).
+ Use case:
+The role of Illumination on colour hue in an interactive display for way finding. Due to the artificial illumination in the three-dimensional virtual world model, the variation in colour hue also suffers a variation in saturation because of natural brightness. The variable lighting and illumination cause different perception and influences the task results. 
+
+
+Use case 2 (possible)
+Does the level of realism affect the participant in the wayfinding task in 3D environment/XR?
+Immersive cartography (XR - AR/VR/MR)
+Background and challenges
+Immersive environments (Çöltekin et al. 2020) are widely used in many fields of human activity – e.g., architecture, culture, crisis management, education, landscape planning, military, tourism, etc. Even in the metaverse, a geospatial aspect appears (Geoconnection, winter 2021).
+ Challenges are connected with the displayed content, display devices, control devices, and user aspects. Emerging applications use traditional approaches that need to be modified and standardized for immersive virtual geographic environments.
+We can start with the variability of available display devices for 3D environments, from traditional monitors to smartphones to HMDs, and the associated variability of input devices enabling interaction with the given environment. Furthermore, there is unclear use of graphic variables for visualizing the content of a 3D environment when some traditional variables are used only to a limited extent. And last but not least, there are user aspects, including, among other things, ethics, social inequality, the possibility of exclusion, etc.
+
+
+Use case - Emergency evacuation
+
+The field of emergency management is connected with existing standards dealing with interoperability, interfaces, applications, or data. Currently, a massive amount of 3D spatial data is created in connection with the development of BIM approaches. This data can be used for the purpose of creating immersive environments that can serve, for example, as a virtual asset for crisis management purposes. An example might be an emergency evacuation that can be carried out in a non-existent building if it can be practiced in a digital twin of an existing building, where this approach is significantly cheaper and without the risk of injury to the participants of the emergency evacuation. This approach can be used in the case of a wide range of publicly accessible buildings.
+ 
+For three-dimensional or dynamic media (virtual reality displays, smartphones), the potential for using multidimensional visualization is higher than for static media, e.g.:
+- Global view (i.e., bird's eye view) can enable rotation of the navigation plan according to the user's movement and dynamic visualization of markings, escape routes, or user movement in the plan.
+- Local view (i.e., first-person view) enables the creation of interactive escape visualizations or simulations or non-interactive escape video animations. These can be used as a complement to the traditional global view of evacuation (an egocentric frame of reference).
+
+Proposed standard / product / output
+1.	The transformation from BIM to a Digital twin environment.
+ 
+2.	Visual cues – position of the light source, level of realism, etc. 
+3.	Interactions with the environment.
+4.	Terminological anchoring of cartographic concepts within immersive geographic environments (connected with the previous chapter)
+
 
 ## 6. Emerging context: Big geospatial data
 
 ## 7. Summary of standardization requirements
+Summary of aspects of cartographic practice that could be standardized to support broader application of cartographic best practices
 
 ## 8. Conclusions
+
+## 9. References
+Abhayaratna, J., van den Brink, L., Car, N., Atkinson, R., Homburg, T., Knibbe, F., McGlinn, K., Wagner, A., Bonduel, M., Rasmussen, M. H., Thiery, F. Eds. 2020. OGC Benefits of Representing Spatial Data Using Semantic and Graph Technologies. Open Geospatial Consortium. http://www.opengis.net/doc/wp/using-semantic-graph
+
+Bertin J (1983) Semiology of Graphics: Diagrams, Networks, Maps (1st ed). ESRI Press, California, USA.
+ 
+Bocher, E., and ERTZ, O.(2020): OGC Symbology Conceptual Model: CorePart. Online: http://www.opengis.net/doc/IS/SymCore/1.0
+
+BOCHER and ERTZ (2018), A redesign of OGC Symbology Encoding standard for sharing cartography. PeerJ Comput. Sci. 4:e143; DOI 10.7717/peerj-cs.143
+
+Brewer, C. A. (2003). A transition in improving maps: The ColorBrewer example. Cartography and Geographic Information Science, 30(2), 159-162.
+
+Coetzee, S., and Rautenbach, V. (2017). A design pattern approach to cartography with big geospatial data. The Cartographic Journal, 54(4), 301-312. 
+
+DiBIASE, D., MacEACHREN, A. M., KRYGIER, J. B. a REEVES C. (1992). Animation and the Role of Map Design in Scientific Visualization. Cartography and Geographic
+Information Systems, r. 19, č. 4, s. 201-214
+
+Dobres, J., Chahine, N., and Reimer, B. (2017). Effects of ambient illumination, contrast polarity, and letter size on text legibility under glance-like reading. Applied Ergonomics, 60, 68-73.
+
+HAEBERLING, CH. (2005). Cartographic Design Principles For 3D Maps – A Contribution To Cartographic Theory. Proceedings of 22nd ICA Congress Mapping Approaches into a Changing World, A Coruna, Spain, Jul 9-16
+
+Harrower, M., & Brewer, C. A. (2003). ColorBrewer. org: an online tool for selecting colour schemes for maps. The Cartographic Journal, 40(1), 27-37.
+
+Percivall, G, Reed, C. Simonis, I, Lieberman, J, and Ramage, S, 2012. Big Geospatial Data – an OGC White Paper. Available online at https://www.google.com/url?q=https://docs.ogc.org/wp/16-131r2/16-131r2.html&sa=D&source=docs&ust=1683478379205872&usg=AOvVaw3vYPD6-VLCsKwEuGfnWcTv
+
+Piepenbrock, C., Mayr, S., & Buchner, A. (2014). Positive Display Polarity Is Particularly Advantageous for Small Character Sizes: Implications for Display Design. Human Factors, 56(5), 942–951. 
+
+RAUTENBACH, V., COETZEE, S., SCHIEWE, J., and ÇÖLTEKIN, A. (2015). An Assessment of Visual Variables for the Cartographic Design of 3D Informal Settlement Models. Proceedings of the ICC 2015, Rio de Janeiro, Brazil
+
