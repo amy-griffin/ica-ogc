@@ -1,6 +1,7 @@
 # Standards supporting cartographic best practices
 
 ## 1. Technical Paper Objective
+A central goal for spatial data preparation is cartographic communication. Sound cartographic communication provides an understandable and successful presentation aligned with all conceivable purposes.
 
 ## 2. Introduction
 
@@ -101,13 +102,30 @@ For three-dimensional or dynamic media (virtual reality displays, smartphones), 
 
 Proposed standard / product / output
 1.	The transformation from BIM to a Digital twin environment.
- 
 2.	Visual cues – position of the light source, level of realism, etc. 
 3.	Interactions with the environment.
 4.	Terminological anchoring of cartographic concepts within immersive geographic environments (connected with the previous chapter)
 
 
 ## 6. Emerging context: Big geospatial data
+### Background
+Big geospatial data have the potential to provide important insights but are challenging to map effectively. Because of their volume and velocity, we need quick methods for making sense of the data.
+
+### Capabilities Vision
+More data only helps if you can make sense of it. Big geospatial data seriously test cartographic generalization methods and computational approaches.Useful standards would capture best practice for how to use visualizations to clarify large amounts of heterogeneous data that change quickly.
+
+### Use Case
+The billions of financial transactions that occur each day can be challenging to make sense of. Yet, fraud is an increasing problem and detecting fraud can draw on the locational information in a stream of data to identify anomalous patterns of financial transactions that may suggest fraud. These data streams may include fixed locations (e.g., particular credit card payment points), with the streaming constituting many transactions performed by different users at that location, or dynamic locations as when a person making a transaction is moving across space. Taking too long to identify fraudulent transactions can lead to more losses, and visualization is still faster than computational methods at identifying outliers (Lokanen 2023).
+
+An interaction design standard could describe what kinds of interactions with big data or AI models fed with big data are likely to produce reasoning processes that lead to new insights.
+Design patterns could describe best practices for reducing the visual complexity of a visualization without affecting the quality or integrity of the underlying data.
+
+
+### Proposed Standard
+- Standard describing the map interaction capabilities that are required for deriving meaning from big data.
+- Reduce the distinction between data and portrayal by finding ways to simplify visualizations of big data without altering the data model by removing data.
+- Find methods that account for systemic change when comparing historical data with real-time data.![image](https://github.com/user-attachments/assets/eaa2395a-1684-4745-bab7-8c1ab16593ea)
+
 
 ## 7. Summary of standardization requirements
 Summary of aspects of cartographic practice that could be standardized to support broader application of cartographic best practices
