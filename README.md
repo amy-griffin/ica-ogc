@@ -60,14 +60,14 @@ There have been some efforts to develop basic portrayal standards that describe 
 
 Despite the success of narrowly focused de facto standards like the ColorBrewer colors, and past attempts to capture the implicit knowledge of expert cartographers in expert systems (e.g., Forrest 2003; Brus et al., 2010; Tsorlini et al., 2017) to build a whole-of-process design standard, none have been successful enough to achieve wide use, perhaps because these standards do not respond to variations in map use context. A considerable challenge is that this context is a wide and multi-facetted notion. It includes physical aspects of the map-reading (such as lighting conditions, device resolution, etc.), but also cognitive and user issues such as map literacy, familiarity with the topic mapped, accessibility, and inclusivity (e.g., of different social and cultural groups). 
 
-To build towards a holistic standard that considers how design elements work together and are shaped by context, a useful approach might be the development of design patterns that could be implemented by software developers (Coetzee and Rautenbach 2017). Design patterns have been described as “a solution to a problem in context” (Alexander (1979) quoted in Shalloway and Trott, 2004, p. 75). Automatically derived (or user-specified) elements of context could be used to determine which design pattern is most helpful for the map use situation.
+To build towards a holistic standard that considers how design elements work together and are shaped by context, a useful approach might be the development of design patterns that could be implemented by software developers (Coetzee and Rautenbach, 2017). Design patterns have been described as “a solution to a problem in context” (Alexander (1979) quoted in Shalloway and Trott, 2004, p. 75). Automatically derived (or user-specified) elements of context could be used to determine which design pattern is most helpful for the map use situation.
 
 Recent developments in AI may present an opportunity to learn successful design patterns from existing high-quality maps in different contexts, and their analysis may discover implicit design rules that cross different contexts and could be built into future software.
 
 ### Use case
 Legibility is an important attribute of a successful map. Legibility is determined by whether there is sufficient contrast between map elements and whether the size of elements is large enough for them to be clearly seen, among other factors. Different mobile devices have different capabilities in terms of screen size and display brightness, meaning there are different constraints on the contrast and size of map elements. A design standard could define minimum element sizes and levels of contrast that are needed for elements to be legible and APIs that adhere to the standard could provide methods for automatically sensing these context elements on the device and adjusting their design within the map. Design patterns could describe good choices for particular types of devices (e.g., mobile phone, tablet, laptop, external monitor).
 
-### Proposed standard
+### Proposed outputs
 -	Standard that describes context elements in a way that allows for their measurement / automatic sensing by sensors on devices that deliver maps.
 -	Production of a set of design patterns that can produce reasonably good design starting points for the production of a map.
 
@@ -179,6 +179,8 @@ Percivall, G, Reed, C. Simonis, I, Lieberman, J, and Ramage, S, 2012. Big Geospa
 Piepenbrock, C., Mayr, S., & Buchner, A. (2014). Positive Display Polarity Is Particularly Advantageous for Small Character Sizes: Implications for Display Design. Human Factors, 56(5), 942–951. 
 
 Rautenbach, V., Coetzee, S., Schiewe, J., and Çöltekin, A. (2015). An Assessment of Visual Variables for the Cartographic Design of 3D Informal Settlement Models. Proceedings of the ICC 2015, Rio de Janeiro, Brazil.
+
+Shalloway, A., and Trott, J. (2004). Design Patterns Explained: A New Perspective on Object-Oriented Design, Second Edition. Upper Saddle River, NJ: Addison Wesley. 
 
 Tsorlini, A., Sieber, R., Hurni, L., Klauser, H., & Gloor, T. (2017). Designing a Rule-based Wizard for Visualizing Statistical Data on Thematic Maps. Cartographic Perspectives, 86, 5-23.
 
