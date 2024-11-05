@@ -79,7 +79,7 @@ Bocher and Ertz (2018) pointed to the low quality of maps using open standards (
 This was later elaborated into the conceptual basis for the geographical data symbology definition as the OGC Symbology Conceptual Model: Core Part using the Bertin's variables for interoperable encoding of cartographic principles (Bocher and Ertz, 2020). The core concept is extensible for different data models (raster, vector, 2D, 3D, VR) and uses alternative encoding methods (JSON, CSS).
 However, Bertin’s variables original visual variables have been extended in various ways.  Several authors added new static visual variables (saturation/intensity, arrangement, focus/crispness, resolution, transparency, spacing) for specific visualisation contexts (e.g., uncertainty). See fig. xx for examples of static visual variables and the source references. Visual variables have also been extended for interactive displays, with six new visual variables: movement, duration, frequency, order, rate of change, and synchronisation. 
 
-The use of the third dimension, however, has opened a new perspective in cartographic visualization. The question is whether we can effectively use the advantages of 3D visualization and eliminate its disadvantages.
+The use of the third dimension, however, has opened a new perspective in cartographic visualization. The question is whether we can effectively use the advantages of 3D visualization and eliminate its disadvantages (Table 2).
 
 | Advantages of 3D                            | Disadvantages of 3D               |
 | ------------------------------------------- | --------------------------------- |
@@ -88,6 +88,7 @@ The use of the third dimension, however, has opened a new perspective in cartogr
 | Additional visual variables                 | Visual clutter                    |
 | Extensions to existing visual variables     | Insufficient use of screen space  |
 
+Table 2. Opportunities and Constraints in 3D Visualization.
 
 ## Capabilities Vision
 For three-dimensional or dynamic media (virtual reality displays, smartphones), the potential for using multidimensional visualization is higher than for static media, e.g.:
