@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/34c0f23f-6ae7-4e77-bb97-bbfc11d541d9)# Standards supporting cartographic best practices (DRAFT)
+# Standards supporting cartographic best practices (DRAFT)
 Contributors: Amy Griffin, Serena Coetzee, Silvana Camboim, Dalia Varanka, Francis Harvey, Petr Kubicek, Zdenek Stachon
 
 ## 1. Introduction
