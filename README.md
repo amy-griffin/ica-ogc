@@ -132,7 +132,7 @@ Summary of aspects of cartographic practice that could be standardized to suppor
 ## 7. Conclusions
 
 ## 8. Acknowledgements 
-We would like to acknowledge the constructive suggestions from attendees of the OGC Portrayal Domain Working Group Workshop at Member Meetings #126 and #127, who provided feedback on early iterations of these ideas.
+This technical paper draws on and extends research first reported in Griffin et al. (2021). We would like to acknowledge the constructive suggestions from attendees of the OGC Portrayal Domain Working Group Workshop at Member Meetings #126 and #127, who provided feedback on early iterations of these ideas.
 
 ## 9. References
 Abhayaratna, J., van den Brink, L., Car, N., Atkinson, R., Homburg, T., Knibbe, F., McGlinn, K., Wagner, A., Bonduel, M., Rasmussen, M. H., Thiery, F. Eds. 2020. OGC Benefits of Representing Spatial Data Using Semantic and Graph Technologies. Open Geospatial Consortium. http://www.opengis.net/doc/wp/using-semantic-graph
@@ -163,6 +163,8 @@ Evans, E. (2003). Domain-driven design: Tackling complexity in the heart of soft
 Forrest, D. (1993). Expert systems and cartographic design. The Cartographic Journal, 30(2), 143-148.
 
 Gibbs N. E. and Tucker A. B. (1986). A model curriculum for a liberal arts degree in computer science. Communications of the ACM, 29(3), 202-210.
+
+Griffin, A. L., Coetzee, S., Kubicek, P., Camboim, S. P., Harvey, F., Behr, F. J., & Brus, J. (2021). Perspectives on making cartographic knowledge accessible to software developers. Abstracts of the ICA, 3, 96.
 
 Griffin, A. L., White, T., Fish, C., Tomio, B., Huang, H., Sluter, C. R., Bravo, J. V. M., Fabrikant, S. I., Bleisch, S., Yamada, M. & Picanço, P. (2017). Designing across map use contexts: A research agenda. International Journal of Cartography, 3(sup1), 90-114.
 
