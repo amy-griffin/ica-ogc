@@ -1,4 +1,4 @@
-# Standards supporting cartographic best practices (DRAFT)
+# (DRAFT) Standards supporting cartographic best practices 
 Contributors: Amy Griffin, Serena Coetzee, Silvana Camboim, Dalia Varanka, Francis Harvey, Petr Kubicek, Zdenek Stachon, Iain Burnell, Keith Ryden
 
 ## 1. Introduction
@@ -75,6 +75,7 @@ Legibility is an important attribute of a successful map. Legibility is determin
 ## 4. Emerging context: 3D and immersive cartography (VR/AR)
 ### Background and challenges 2D vs 2D cartography 
 Bocher and Ertz (2018) pointed to the low quality of maps using open standards (OGC included). They suggested taking cartographic theory more into account in the core OGC Symbology encoding standards. Using the visual variables proposed by Bertin (shape, size, hue/colour, value, texture, and orientation; 1967, 1983) as the underlying cartographic instruction, they proposed the symbology code which constitutes a style that describes how a map is authored.
+
 This was later elaborated into the conceptual basis for the geographical data symbology definition as the OGC Symbology Conceptual Model: Core Part using the Bertin's variables for interoperable encoding of cartographic principles (Bocher and Ertz, 2020). The core concept is extensible for different data models (raster, vector, 2D, 3D, VR) and uses alternative encoding methods (JSON, CSS).
 However, Bertin’s variables original visual variables have been extended in various ways.  Several authors added new static visual variables (saturation/intensity, arrangement, focus/crispness, resolution, transparency, spacing) for specific visualisation contexts (e.g., uncertainty). See fig. xx for examples of static visual variables and the source references. Visual variables have also been extended for interactive displays, with six new visual variables: movement, duration, frequency, order, rate of change, and synchronisation. 
 
@@ -94,6 +95,8 @@ For three-dimensional or dynamic media (virtual reality displays, smartphones), 
 - Local view (i.e., first-person view) enables the creation of interactive escape visualizations or simulations or non-interactive escape video animations. These can be used as a complement to the traditional global view of evacuation (an egocentric frame of reference).
 
 New possibilities have been proposed for interactive 3D models: e.g. camera settings, lighting and illumination, shading, shadows, and atmospheric and environmental effects (Haeberling 2002). For example, illumination on colour hue can be an interactive method for supporting for wayfinding. But due to the artificial illumination in the three-dimensional virtual world model, the variation in colour hue also suffers a variation in saturation because of natural brightness. The variable lighting and illumination cause different perception and influences the task results (Figure X). 
+
+
 
 ## Use case
 Currently, a massive amount of 3D spatial data is created in connection with the development of Building Information Model (BIM) approaches. This data can be used for the purpose of creating immersive environments that can serve, for example, as a virtual asset for crisis management purposes. An example might be an emergency evacuation that can be carried out in a non-existent building if it can be practiced in a digital twin of an existing building, where this approach is significantly cheaper and eliminates the risk of injury to the participants of the emergency evacuation. This approach can be used in the case of a wide range of publicly accessible buildings.
