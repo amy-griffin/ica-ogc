@@ -73,7 +73,7 @@ Legibility is an important attribute of a successful map. Legibility is determin
 
 
 ## 4. Emerging context: 3D and immersive cartography (VR/AR)
-### Background and challenges 2D vs 2D cartography 
+### Background and challenges 
 Bocher and Ertz (2018) pointed to the low quality of maps using open standards (OGC included). They suggested taking cartographic theory more into account in the core OGC Symbology encoding standards. Using the visual variables proposed by Bertin (shape, size, hue/colour, value, texture, and orientation; 1967, 1983) as the underlying cartographic instruction, they proposed the symbology code which constitutes a style that describes how a map is authored.
 
 This was later elaborated into the conceptual basis for the geographical data symbology definition as the OGC Symbology Conceptual Model: Core Part using the Bertin's variables for interoperable encoding of cartographic principles (Bocher and Ertz, 2020). The core concept is extensible for different data models (raster, vector, 2D, 3D, VR) and uses alternative encoding methods (JSON, CSS).
@@ -100,7 +100,7 @@ New possibilities have been proposed for interactive 3D models: e.g. camera sett
 Currently, a massive amount of 3D spatial data is created in connection with the development of Building Information Model (BIM) approaches. This data can be used for the purpose of creating immersive environments that can serve, for example, as a virtual asset for crisis management purposes. An example might be an emergency evacuation that can be carried out in a non-existent building if it can be practiced in a digital twin of an existing building, where this approach is significantly cheaper and eliminates the risk of injury to the participants of the emergency evacuation. This approach can be used in the case of a wide range of publicly accessible buildings.
 
 ## Proposed outputs
--	Best practice guidelines for the use of visual cues – position of the light source, level of realism, etc. 
+-	Best practice guidelines for the use of immersive 3D visual cues – position of the light source, level of realism, etc. 
 -	Terminological anchoring of cartographic concepts within immersive geographic environments (see also section 2)
 
 
