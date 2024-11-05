@@ -1,12 +1,9 @@
 # Standards supporting cartographic best practices
 
-## 1. Technical Paper Objective
-A central goal for spatial data preparation is cartographic communication. Sound cartographic communication provides an understandable and successful presentation aligned with all conceivable purposes.
-
-## 2. Introduction
+## 1. Introduction
 
 
-## 3. Geospatial semantics, cartographic terminology, and applied ontology
+## 2. Geospatial semantics, cartographic terminology, and applied ontology
 ### Background 
 The complexity and rapidity of data and changes to data in very large databases, sometimes called ‘Big Data,’ present challenges for effective processing with widely used software that rely primarily on human interpretation. Research has shown that graph-based models employing basic node-edge-node structures promote semi-automated interpretation of information systems as knowledge representation and reasoning through the application of machine-readable logic axioms.  Formal map semantics federated as a graph are an applied ontology, a digital representation of a world-view.  Efficient ontology schemas require a balance of informal linguistic annotation and formal logic properties relating object sets and their members. Cartographic representations involve visual vocabulary in addition to linguistic annotation for human interpretations, but like Big Data, have semantic processing challenges.  A body of literature has examined map semantics as a type of ‘map language’ from an analogue perspective. Map semantics have also been analyzed using formal logic to identify and clarify consistencies and differences between cartography and linguistics. However, such individual studies have not been integrated to create principles of formal map semantics. 
 ### Capabilities Vision 
@@ -35,7 +32,7 @@ The procedure involves the following actions
 -	Proposed standardized terminology through an ontology 
 
 
-## 4. Good cartographic practices in different contexts
+## 3. Good cartographic practices in different contexts
 ### Background
 Maps have transitioned from being specialist tools that were designed and produced by experts to ubiquitous tools that support daily business operations and everyday life activities. Many people now have many maps in their pockets, thanks to internet-enabled delivery of spatial information and the computational power of mobile phones. Yet, the power of maps still lies in the way they simplify and generalize the complexity of the world. This means that not all of the world’s information should be included on every map, and maps may need to look different for different map use situations. In a simple example from a map used commonly in everyday life, maps supporting navigation at night need a dark base map to reduce strain on the user’s eyes when switching their gaze between the map and the road. Overall performance, however, tends to generally be better with devices in light mode compared with dark mode (Piepenbrock et al., 2014; Dobres et al., 2017), meaning that dark base maps may be best reserved for map use situations where they provide a distinct benefit. 
 
@@ -61,7 +58,7 @@ Legibility is an important attribute of a successful map. Legibility is determin
 -	Production of a set of design patterns that can produce reasonably good design starting points.
 
 
-## 5. Emerging context: 3D and immersive cartography (VR/AR)
+## 4. Emerging context: 3D and immersive cartography (VR/AR)
 ### Background and challenges 2D vs 2D cartography 
 Bocher and Ertz (2018) pointed to the low quality of maps using open standards (OGC included). They suggested taking cartographic theory more into account in the core OGC Symbology encoding standards. Using the visual variables proposed by Bertin (shape, size, hue/colour, value, texture, and orientation; 1967, 1983) as the underlying cartographic instruction, they proposed the symbology code which constitutes a style that describes how a map is authored.
 Their activities later (Bocher and Ertz, 2020) grew out in proposing the conceptual basis for the geographical data symbology definition as the OGC Symbology Conceptual Model: Core Part using the Bertins variables for interoperable encoding of cartographic principles. The core concept is extensible for different data models (raster, vector, 2D, 3D, VR) and uses alternative encoding methods (JSON, XML, CSS).
@@ -106,7 +103,7 @@ Proposed standard / product / output
 4.	Terminological anchoring of cartographic concepts within immersive geographic environments (connected with the previous chapter)
 
 
-## 6. Emerging context: Big geospatial data
+## 5. Emerging context: Big geospatial data
 ### Background
 Big geospatial data have the potential to provide important insights but are challenging to map effectively. Because of their volume and velocity, we need quick methods for making sense of the data.
 
@@ -126,12 +123,12 @@ Design patterns could describe best practices for reducing the visual complexity
 - Find methods that account for systemic change when comparing historical data with real-time data.![image](https://github.com/user-attachments/assets/eaa2395a-1684-4745-bab7-8c1ab16593ea)
 
 
-## 7. Summary of standardization requirements
+## 6. Summary of standardization requirements
 Summary of aspects of cartographic practice that could be standardized to support broader application of cartographic best practices
 
-## 8. Conclusions
+## 7. Conclusions
 
-## 9. References
+## 8. References
 Abhayaratna, J., van den Brink, L., Car, N., Atkinson, R., Homburg, T., Knibbe, F., McGlinn, K., Wagner, A., Bonduel, M., Rasmussen, M. H., Thiery, F. Eds. 2020. OGC Benefits of Representing Spatial Data Using Semantic and Graph Technologies. Open Geospatial Consortium. http://www.opengis.net/doc/wp/using-semantic-graph
 
 Bertin J (1983) Semiology of Graphics: Diagrams, Networks, Maps (1st ed). ESRI Press, California, USA.
