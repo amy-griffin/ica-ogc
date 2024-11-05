@@ -99,6 +99,10 @@ New possibilities have been proposed for interactive 3D models: e.g. camera sett
 ## Use case
 Currently, a massive amount of 3D spatial data is created in connection with the development of Building Information Model (BIM) approaches. This data can be used for the purpose of creating immersive environments that can serve, for example, as a virtual asset for crisis management purposes. An example might be an emergency evacuation that can be carried out in a non-existent building if it can be practiced in a digital twin of an existing building, where this approach is significantly cheaper and eliminates the risk of injury to the participants of the emergency evacuation. This approach can be used in the case of a wide range of publicly accessible buildings.
 
+![image](https://github.com/user-attachments/assets/69c2c1e9-44b6-4e73-8dc1-cb3a6cb19e90)
+Figure 4. Example of a BIM transformed with the use of lighting and camera settings to simulate a building for the purpose of practicing building evacuation in an emergency.
+
+
 ## Proposed outputs
 -	Best practice guidelines for the use of immersive 3D visual cues – position of the light source, level of realism, etc. 
 -	Terminological anchoring of cartographic concepts within immersive geographic environments (see also section 2)
@@ -118,7 +122,7 @@ An interaction design standard could describe what kinds of interactions with bi
 Design patterns could describe best practices for reducing the visual complexity of a visualization without affecting the quality or integrity of the underlying data.
 
 
-### Proposed Standard
+### Proposed Outputs
 - Standard describing the map interaction capabilities that are required for deriving meaning from big data.
 - Reduce the distinction between data and portrayal by finding ways to simplify visualizations of big data without altering the data model by removing data.
 - Find methods that account for systemic change when comparing historical data with real-time data.
