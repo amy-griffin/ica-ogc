@@ -172,6 +172,8 @@ Harrower, M., & Brewer, C. A. (2003). ColorBrewer. org: an online tool for selec
 
 ISO. (2020). ISO 12967-1:2020, Health informatics — Service architecture (HISA) — Part 1: Enterprise viewpoint.
 
+Lokanen, M. (2023). Financial fraud detection: the use of visualization techniques in credit card fraud and money laundering domains. Journal of Money Laundering Control, 26(3), 436-444.
+
 Percivall, G, Reed, C. Simonis, I, Lieberman, J, and Ramage, S, 2012. Big Geospatial Data – an OGC White Paper. Available online at: https://www.google.com/url?q=https://docs.ogc.org/wp/16-131r2/16-131r2.html&sa=D&source=docs&ust=1683478379205872&usg=AOvVaw3vYPD6-VLCsKwEuGfnWcTv
 
 Piepenbrock, C., Mayr, S., & Buchner, A. (2014). Positive Display Polarity Is Particularly Advantageous for Small Character Sizes: Implications for Display Design. Human Factors, 56(5), 942–951. 
